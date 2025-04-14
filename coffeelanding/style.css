@@ -314,7 +314,7 @@ button{
       display: flex;
       justify-content: center;
       align-items: center;
-      transform: translateX(125px);
+      transform: translateX(120px);
     }
   }
   @keyframes appear {
