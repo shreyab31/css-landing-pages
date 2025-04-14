@@ -1,0 +1,327 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+:root{
+    --main-color: #deab5f;
+    --primary-color: #312e2e;
+}
+/*utility styles*/
+.logo{
+  background: url(imgs/logo.png)  no-repeat center center;
+  background-size: contain;
+  height: 70px;
+  width: 70px; 
+  transform: scale(2)translateX(-10px); /* Makes it look 1.5x bigger */
+  transform-origin: center;
+}
+button{
+    padding: 10px 30px;
+    background: var(--main-color);
+    border: none;
+    cursor: pointer;
+}
+ /*resets*/
+ *{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+ }
+  body{
+    background: #100e0f;
+  }
+  /*nav start*/
+  nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color:#fff;
+    font-family: sans-serif;
+    padding-top: 15px;
+  }
+  li{
+    display: inline;
+    list-style: none;
+  }
+  li a{
+    color: #fff;
+    text-decoration: none;
+    margin-left: 40px;
+    padding-bottom: 10px;
+  }
+  li a:hover{
+    border-bottom: 2px solid var(--main-color);
+
+  }
+   /*nav end*/
+   /*header start*/
+   .header{
+    background: url(imgs/coff.webp);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    font-family: "Playfair Display", serif;
+    font-weight: normal;
+    /*flex*/
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    text-align:center;
+    position: relative;
+   }
+
+   .main-headings{
+    position: absolute;
+    top:7rem;
+    font-size: 4rem;
+    word-spacing: 10px;
+   }
+
+   .primary-headings{
+    position: absolute;
+    bottom:4rem;
+    font-size: 4rem;
+    word-spacing: 10px;
+    margin-bottom: -40px;
+   }
+
+   .main-btn{
+    position: absolute;
+    bottom: 2rem;
+    padding: 10px 30px;
+    margin-top: 20px;
+    background: transparent;
+    background-color: var(--main-color);
+    transform: translateY(60px);
+   }
+   /*our story start*/
+  #ourstory{
+    /*height: 100vh;*/
+    margin-top: 15%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    }
+  .img{
+    width: 400px;
+    height: 400px;
+    background: url(imgs/latte.png);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+  }
+  .title-style{
+    display: flex;
+    align-items: center;
+
+  }
+  .title{
+    font-family: "Playfair Display", serif;
+    font-size: 4rem;
+    color: #fff;
+    transform: translateX(-100px);
+  }
+  .line{
+    width: 100px;
+    height: 2px;
+    background: #fff;
+    transform:translateX(-120px);
+  }
+  .section-content p{
+    max-width: 500px;
+    color: #fff;
+    font-family: sans-serif;
+    line-height: 20px;
+    margin: 20px 0;
+  }
+  /*our story end*/
+  /*coffee start*/
+  .coffee-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 5rem;
+  }
+  .content-sec p{
+    max-width: 500px;
+    margin-top: 20px;
+    font-family: sans-serif;
+    color: white;
+  }
+  .img2{
+    width: 100%;
+    max-width: 350px;
+  }
+  .title2{
+    font-size: 3rem;
+    font-family: "Playfair Display", serif;
+    color: #fff;
+  }
+  /*Coffee start end*/
+  .products{
+    margin-top: 5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  .title3{
+    font-size: 4rem;
+    margin-left: 10rem;
+    margin-top: 10rem;
+    margin-bottom: 10rem;
+    color: #fff;
+  }
+  .cards{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+  }
+  .card{
+    border: 2px solid var(--main-color);
+    padding: 0 2px;
+    height: 400px;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 5px;
+    position: relative;
+    margin-bottom: 4rem;
+    color: beige;
+  }
+  .card:hover {
+    transform: scale(1.05);
+    box-shadow:rgb(247, 247, 221);
+}
+  .card-img{
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    top: -60px;
+  }
+  .img-one{
+    background: url(imgs/img1.png);
+    background-position: center;
+    background-size: cover;
+    
+  }
+  .img-two{
+    background: url(imgs/img2.png);
+    background-position: center;
+    background-size: cover;
+    transform: translateY(-10px);
+    height: 125px;
+    width: 125px;
+  }
+  .img-three{
+    background: url(imgs/img3.png);
+    background-position: center;
+    transform: translateY(10px);
+    height: 80px;
+    width: 80px;
+
+    background-size: cover;
+  }
+  .card-title{
+    color: #fff;
+    font-family: sans-serif;
+    margin-top: 50px;
+  }
+  footer{
+    height: 50vh;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    font-family: sans-serif;
+  }
+  footer .container{
+    margin: 20px;
+    max-width: 300px;
+    text-align: center;
+  }
+  footer.heading-info{
+    margin-bottom: 20px;
+  }
+  footer p{
+    margin-top: 25px;
+    line-height: 25px;
+  }
+  span{
+    color: var(--main-color);
+  }
+  /*responsiveness*/
+  @media only screen and (max-width:768px){
+    .main-headings, .primary-headings{
+      font-size: 2.5rem;
+    }
+    #ourstory{
+      margin-top: 5%;  /* Reduce margin for smaller screens */
+      padding: 0 10px;
+      display: flex;
+        flex-direction: column;  /* Ensure the items stack vertically */
+        align-items: center;
+    }
+    #ourstory .title{
+      transform: translateX(0);
+      text-align: center;
+    }
+    #ourstory .line{
+      display: none;
+    }
+  
+    .content-sec{
+      text-align: center;
+    }
+    #ourstory .img-container .img{
+      width: 70%;
+      text-align: center;
+      margin: 0 auto;
+    }
+    .main-btn {
+      display: block;
+    margin-top: 20px;
+    padding: 12px 25px;
+    font-size: 1rem;
+    }
+    
+    .title{
+      margin: 0 auto;
+    }
+    .title2{
+      margin: 0 auto;
+    }
+    .title3{
+      display: none;
+    }
+    .para{
+      margin: 50px;
+      text-align: center;
+    }
+  }
+  @keyframes appear {
+    from{
+      opacity: 0;
+      scale: 0.5;
+    }
+    to{
+      opacity: 1;
+      scale: 1;
+    }
+  }
+    *{
+      animation: appear 1s ease-out forwards;
+      animation-timeline : view();
+      animation-range: entry 0;
+      transition: opacity 0.3s ease-out, transform 0.3s ease-out
+    }
+
