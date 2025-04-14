@@ -312,9 +312,9 @@ button{
     }
     .learn{
       display: flex;
-      flex-direction: column;
       justify-content: center;
       align-items: center;
+      transform: translateX(125px);
     }
   }
   @keyframes appear {
