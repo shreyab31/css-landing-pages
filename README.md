@@ -8,3 +8,4 @@ Here is the list of landing pages I am working on:
 
 1. **Coffee Shop Landing Page**  
    A landing page for a coffee shop with details about products and offers.
+    [View the Coffee Shop Landing Page](https://shreyab31.github.io/css-landing-pages/coffeelanding/index.html)
