@@ -264,11 +264,14 @@ button{
     .main-headings, .primary-headings{
       font-size: 2.5rem;
     }
+    .logo{
+      margin-left: 70px;
+    }
     #ourstory{
-      margin-top: 5%;  /* Reduce margin for smaller screens */
+      margin-top: 5%;  
       padding: 0 10px;
       display: flex;
-        flex-direction: column;  /* Ensure the items stack vertically */
+        flex-direction: column; 
         align-items: center;
     }
     #ourstory .title{

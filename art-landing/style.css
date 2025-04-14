@@ -1,0 +1,11 @@
+/*resets*/
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+body{
+    background-color: #ebeae9;
+    margin: 1rem;
+}
