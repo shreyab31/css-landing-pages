@@ -16,4 +16,4 @@ Here is the list of landing pages I am working on:
 
 3. **Hoodie E‑Commerce Landing**  
   A clean e‑commerce style page with product grid and customer reviews.  
-   [View the Hoodies Store Landing Page](https://shreyab31.github.io/css-landing-pages/hoodies-store-landing/)
+   [View the Hoodies Store Landing Page](https://shreyab31.github.io/css-landing-pages/hoodies-store-landing/index.html)
