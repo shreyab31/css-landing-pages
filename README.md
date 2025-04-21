@@ -13,3 +13,7 @@ Here is the list of landing pages I am working on:
 2. **Art Landing Page**     
    A landing page showcasing the different types of art and their meanings.
    [View the Art Landing Page](https://shreyab31.github.io/css-landing-pages/art-landing/index.html)
+
+3. **Hoodie E‑Commerce Landing**  
+  A clean e‑commerce style page with product grid and customer reviews.  
+   [View the Hoodies Store Landing Page](https://shreyab31.github.io/css-landing-pages/hoodies-landing/index.html)
